@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding-top: 0.5em;
+    box-sizing: border-box;
+    background-color: rgb(185, 181, 181);
+    height: 100vh;
+    width: 100%;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    letter-spacing: 0.09em;
+    font-size: 11px;
+    color: rgb(95, 83, 83);
+    cursor: pointer;
+}

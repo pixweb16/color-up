@@ -25,7 +25,7 @@ class Colorup extends Component {
 
         // Render:
         return (            
-            <div> 
+            <div className="Colorup"> 
                 <p style={{color: this.state.color}}>Clicks counter :  {this.state.clickN} </p>
                 <p className="colorDetail">Current counter color: 
                     <span onClick={this.colorSpanClicked}>
